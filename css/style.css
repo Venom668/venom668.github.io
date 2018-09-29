@@ -1,0 +1,109 @@
+html {
+    background-image: url('../res/background.png');
+    background-color: black;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh auto;
+}
+
+body {
+    margin: 0px auto;
+    min-height: 100vh auto;
+    height: 100vh auto;
+    color: black;
+    font-family: 'Open Sans', 'Helvetica', sans-serif;
+    text-decoration: none;
+}
+
+div#content {
+    margin: 0px auto;
+    padding-top: 100px;
+    max-width: 800px;
+    line-height: 1.6;
+    font-size: 18px;
+    min-height: 100vh auto;
+    height: 100vh auto;
+    background-color: #eee;
+}
+
+div#bottom {
+    margin: auto;
+    padding-top: 0px;
+    max-width: 60%;
+    font-size: 16px;
+}
+
+div#menu {
+    float: left;
+    position: fixed;
+}
+
+div#buttons {
+    text-align: center;
+    font-size: 40px;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+h1,h2,h3,h4 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+h2 {
+    padding-top: 15px;
+}
+
+hr {
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.logo {
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    width: 60px;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #eee;
+}
+
+.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1px;
+    color: darkolivegreen;
+}
+.copyleft {
+    display:inline-block;
+    transform: rotate(180deg);
+  }
