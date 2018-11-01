@@ -2,28 +2,29 @@ html {
     background-image: url('../res/background.png');
     background-color: black;
     background-attachment: fixed;
-    background-repeat: no-repeat;
-    height: 100vh auto;
+    background-repeat: round;
+    background-position: center top;
+    height: 100%;
 }
 
 body {
     margin: 0px auto;
-    min-height: 100vh auto;
-    height: 100vh auto;
     color: black;
     font-family: 'Open Sans', 'Helvetica', sans-serif;
     text-decoration: none;
+    overflow: auto;
+    height: 100%;
 }
 
 div#content {
+    display: block;
     margin: 0px auto;
     padding-top: 100px;
     max-width: 800px;
     line-height: 1.6;
     font-size: 18px;
-    min-height: 100vh auto;
-    height: 100vh auto;
     background-color: #eee;
+    min-height: 100%;
 }
 
 div#bottom {
@@ -94,15 +95,19 @@ li a:hover {
     font-weight: bold;
 }
 
-.footer {
+footer {
     position: relative;
+    margin: 0px auto;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 800px;
     text-align: center;
     padding-bottom: 1px;
+    padding-top: 1px;
     color: darkolivegreen;
+    background-color: #eee;
 }
+
 .copyleft {
     display:inline-block;
     transform: rotate(180deg);
